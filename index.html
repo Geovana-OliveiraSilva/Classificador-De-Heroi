@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Classificador de Herói</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Tela de seleção de heróis -->
+  <section id="selecaoHeroi" class="tela">
+    <h2>Escolha seu Herói</h2>
+    <div class="herois">
+      <img src="assets/dumbledore.jpg" onclick="selecionarHeroi('Dumbledore e Fawkes')" alt="Dumbledore">
+      <img src="assets/hermione.jpg" onclick="selecionarHeroi('Hermione Granger')" alt="Hermione">
+      <img src="assets/ron.jpg" onclick="selecionarHeroi('Ronald Weasley')" alt="Ron">
+      <img src="assets/luna.jpg" onclick="selecionarHeroi('Luna Lovegood')" alt="Luna">
+      <img src="assets/minerva.jpg" onclick="selecionarHeroi('Minerva McGonagall')" alt="Minerva">
+      <img src="assets/hagrid.jpg" onclick="selecionarHeroi('Rubeo Hagrid')" alt="Hagrid">
+      <img src="assets/ginny.jpg" onclick="selecionarHeroi('Ginevra Weasley')" alt="Ginny">
+      <img src="assets/harry.jpg" onclick="selecionarHeroi('Harry Potter')" alt="Harry">
+    </div>
+  </section>
+
+  <!-- Tela de entrada de XP -->
+  <section id="entradaXP" class="tela escondido">
+  <h2 id="nomeSelecionado"></h2>
+  <img id="imgSelecionado" src="" alt="Herói Selecionado" style="width: 200px; border-radius: 12px; margin-top: 10px;">
+  <input id="xpInput" type="number" placeholder="Digite o XP do herói" />
+  <button onclick="classificar()">Classificar Herói</button>
+</section>
+
+  <!-- Tela de resultado -->
+  <section id="resultado" class="tela escondido">
+    <h2 id="mensagemFinal"></h2>
+    <div id="cardFinal"></div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
