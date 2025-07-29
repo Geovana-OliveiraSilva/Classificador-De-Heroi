@@ -57,5 +57,5 @@ JavaScript puro
 A aplicação exibe um cartão com o nome, imagem do herói e o nível alcançado com base no XP informado.
 
 ## ✨ Autor
-Desenvolvido por Geovana Oliveira
+Desenvolvido por **Geovana Oliveira**
 Projeto criado como exercício da trilha de lógica de programação com JavaScript da DIO **(Digital Innovation One)**.
