@@ -38,7 +38,6 @@ Este é um projeto simples em **HTML**, **CSS** e **JavaScript** onde o usuário
 
 1. Clone o repositório:
 
-```bash
 git clone https://github.com/Geovana-OliveiraSilva/Classificador-De-Heroi.git
 
 Acesse a pasta do projeto:
@@ -47,14 +46,16 @@ cd Classificador-De-Heroi
 
 Abra o arquivo index.html no navegador.
 
-🛠️ Tecnologias usadas
+## 🛠️ Tecnologias usadas
 HTML5
 
 CSS3
 
 JavaScript puro
 
-✨ Resultado Final
+## ✨ Resultado Final
 A aplicação exibe um cartão com o nome, imagem do herói e o nível alcançado com base no XP informado.
 
-Feito por Geovana Oliveira
+## ✨ Autor
+Desenvolvido por Geovana Oliveira
+Projeto criado como exercício da trilha de lógica de programação com JavaScript da DIO **(Digital Innovation One)**.
